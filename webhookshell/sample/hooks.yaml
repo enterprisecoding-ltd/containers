@@ -1,0 +1,4 @@
+- id: sample-webhook
+  execute-command: /var/scripts/sample.sh
+  command-working-directory: /var/scripts
+  response-message: I got the payload!
